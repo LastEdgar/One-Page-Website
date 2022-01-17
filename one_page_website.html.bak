@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Finn and The Aussies</title>
+	</head>
+
+	<!--Heading Section-->
+	<header>
+		<div id="home">
+			<div> <!--Nav Section-->
+				<nav>
+					
+						<a href="#home" id="link">Home</a>|
+						<a href="#videos">Videos</a>|
+						<a href="#contact">Contact Us</a>
+					
+				</nav>
+			</div> <!--End Nav Section-->
+		</div>
+	</header>
+	<!--End Heading Section-->
+
+	<!--Content Section-->
+	<body>
+		<!--Images Section-->
+		<section>
+			<div>
+				<!--Photo Container-->
+				<div><br>
+					<img src="./images/ENP_FinnLynn-7.jpg" alt="Australian Shepherd smiling with ball" width="630" height="800">
+					<img src="./images/_MG_8872-2.jpg" alt="Australian Shepherd Puppy lying down on grass" width="630" height="800">
+					<img src="./images/ENP_FinnLynn-13.jpg" alt="Australian Shepherd Smiling" width="630" height="800">
+					
+						<div>
+							<h2>Meet Finn!</h2>
+							<p>This is Finn! Finn loves the outdoors and all things food!<br>
+							Finn is my sister's gorgeous Australian Shepherd. I helped puppy-sit for him lots when he was younger,<br>
+							so I am glad to show him off and introduce you to some more information on these animals! :)</p>
+						</div>
+				</div>
+				<!--End Photo Container-->
+			
+			</div>
+		</section>
+		<!--End Images Section-->
+		
+		<!--Videos Section-->
+		<section>
+			<div id="videos">
+				<h2>An Intro to Australian Shepherds</h2>
+				<iframe width="894" height="503" src="https://www.youtube.com/embed/J15YLNcpuyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<iframe width="894" height="503" src="https://www.youtube.com/embed/sJgPYtHbM58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</section>
+		<!--End Videos Section-->
+		
+	
+	<!--End Content Section-->
+	
+	<!--Contact Form-->
+	<section>
+		<div id="contact">
+			<div>
+					<h1>Contact Us</h1>
+					<div>
+						<h4><span>Your feedback is really helpful to me.</span>
+							<br>Please leave us a comment if you have any suggestions!
+						</h4>
+						<p>
+							Please provide me with your basic contact information so I can get back to you if you so desire.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="comment" type="text" value="Name"><br>
+								<input class="comment" type="text" value="Email Address"><br>
+								<input class="comment" type="text" value="Feedback"><br>
+								<input type="submit" value="Submit">	
+							</form>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	</body>
+	<!--End Contact Form-->
+
+	<!--Footer-->
+	<section>
+		<footer>
+			<div><br>
+				www.FinnAndTheAussies.ca &nbsp;|&nbsp; &copy; 2022
+		</footer>
+	<section>
+	<!--Footer-->
+
+</html>	
