@@ -3,17 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Finn and The Aussies</title>
+		<link rel='stylesheet' type="text/css" href="./css/one_page_website.css">
 	</head>
 
 	<!--Heading Section-->
 	<header>
 		<div id="home">
-			<div> <!--Nav Section-->
+			<h1>Finn the Australian Shepherd</h1>
+			<div class="nav"> <!--Nav Section-->
 				<nav>
 					
-						<a href="#home" id="link">Home</a>|
-						<a href="#videos">Videos</a>|
-						<a href="#contact">Contact Us</a>
+						<a href="#home" id="link">Home&nbsp;</a>|
+						<a href="#videos">Videos&nbsp;</a>|
+						<a href="#contact">Contact Us&nbsp;</a>
 					
 				</nav>
 			</div> <!--End Nav Section-->
@@ -25,18 +27,19 @@
 	<body>
 		<!--Images Section-->
 		<section>
-			<div>
+			<div class="container-fluid">
 				<!--Photo Container-->
-				<div><br>
-					<img src="./images/ENP_FinnLynn-7.jpg" alt="Australian Shepherd smiling with ball" width="620" height="800">
-					<img src="./images/_MG_8872-2.jpg" alt="Australian Shepherd Puppy lying down on grass" width="620" height="800">
-					<img src="./images/ENP_FinnLynn-13.jpg" alt="Australian Shepherd Smiling" width="620" height="800">
+				<div class="photo-container"><br>
+					<h2>Photos</h2>
+					<img src="./images/ENP_FinnLynn-7.jpg" alt="Australian Shepherd with ball">
+					<img src="./images/_MG_8872-2.jpg" alt="Australian Shepherd Puppy lying down on grass">
+					<img src="./images/ENP_FinnLynn-13.jpg" alt="Australian Shepherd Smiling">
 					
 						<div>
 							<h2>Meet Finn!</h2>
 							<p>This is Finn! Finn loves the outdoors and all things food!<br>
 							Finn is my sister's gorgeous Australian Shepherd. I helped puppy-sit for him lots when he was younger,<br>
-							so I am glad to show him off and introduce you to some more information on these animals! :)</p>
+							so I am glad to show him off and introduce you to some more information on these animals! :)</p><br><br>
 						</div>
 				</div>
 				<!--End Photo Container-->
@@ -44,7 +47,7 @@
 			</div>
 		</section>
 		<!--End Images Section-->
-		
+		<br><br>
 		<!--Videos Section-->
 		<section>
 			<div id="videos">
@@ -66,17 +69,20 @@
 					<h1>Contact Us</h1>
 					<div>
 						<h4><span>Your feedback is really helpful to me.</span>
-							<br>Please leave us a comment if you have any suggestions!
+							<br>Please leave a comment if you have any suggestions!
 						</h4>
 						<p>
 							Please provide me with your basic contact information so I can get back to you if you so desire.
 						</p>
-						<div>
+						<div class="inputs">
 							<form action="" method="post">
-								<input class="comment" type="text" value="Name"><br>
-								<input class="comment" type="text" value="Email Address"><br>
-								<input class="comment" type="text" value="Feedback"><br>
-								<input type="submit" value="Submit">	
+								<input class="comment" type="text" value="" placeholder="Name"><br>
+								<input class="comment" type="text" value="" placeholder="Email Address"><br>
+								<input class="comment" type="text" value="" placeholder="Feedback"><br>
+							<div class="submit">
+								<input type="submit" value="Submit">
+							</div>	
+									
 							</form>
 						</div>
 					</div>

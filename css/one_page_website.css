@@ -1,0 +1,107 @@
+/* Needs font family, font size for text,
+input width, margin between inputs, border of inputs, border radius of inputs for form */
+
+html {
+    background-color: #46403d;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+#home {
+    background: url(../images/ENP_FinnLynn-7.jpg) no-repeat 5% 25%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px; /* This is the spacer before the Main title Logo*/
+    padding-bottom: 500px; /* This is the spacer after the Main title Logo*/
+    color:#fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+#home h1 {
+    font-weight: 900;
+    font-size: 45px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: darkslategray;
+    text-shadow: 2px 1px 1px rgba(255,255,255,0.5);
+}
+
+.nav {
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    display:block;
+    color: black;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.photo-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 100%;
+    height: 100%;
+    display:block;
+    float: right;
+    overflow: hidden;
+
+    
+}
+
+#videos {
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    cursor: pointer ;
+}
+
+.photo-container img {
+    padding: 4px;
+    max-width:400px;
+    max-height:350px;
+    border: 2px #fff;
+    display: inline;
+}
+
+#contact, footer {
+    background-color: #3d4346;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 1em;
+    color: #fff;
+    
+}
+
+.comment {
+    width: 30%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 2px solid #46403d;
+    border-radius: 2%;
+    font-size: 1.2em;
+}
+
+
+.submit input[type="submit"]{
+    border-radius: 2%;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 2px;
+    cursor: pointer;
+}
