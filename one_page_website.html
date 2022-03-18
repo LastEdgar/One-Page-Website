@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>Finn and The Aussies</title>
 		<link rel='stylesheet' type="text/css" href="./css/one_page_website.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="./JS/one_page_website.js" defer></script>
 	</head>
 
 	<!--Heading Section-->
@@ -31,9 +33,59 @@
 				<!--Photo Container-->
 				<div class="photo-container"><br>
 					<h2>Photos</h2>
-					<img src="./images/ENP_FinnLynn-7.jpg" alt="Australian Shepherd with ball">
-					<img src="./images/_MG_8872-2.jpg" alt="Australian Shepherd Puppy lying down on grass">
-					<img src="./images/ENP_FinnLynn-13.jpg" alt="Australian Shepherd Smiling">
+					<div class="row">
+						<div class="column">
+							<img src="./images/ENP_FinnLynn-7.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Australian Shepherd with ball">
+						</div>
+						<div class="column">
+							<img src="./images/_MG_8872-2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Australian Shepherd Puppy lying down on grass">
+						</div>
+						<div>
+							<img src="./images/ENP_FinnLynn-13.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Australian Shepherd Smiling">
+						</div>
+
+					</div>
+					<div id="myModal" class="modal">
+						<span class="close cursor" onclick="closeModal()">&times;</span>
+						<div class="modal-content">
+					
+							<div class="mySlides">
+								<div class="numbertext">1 / 3</div>
+								<img src="./images/ENP_FinnLynn-7.jpg" style="width:100%">
+							</div>
+					
+							<div class="mySlides">
+								<div class="numbertext">2 / 3</div>
+								<img src="./images/_MG_8872-2.jpg" style="width:100%">
+							</div>
+					
+							<div class="mySlides">
+								<div class="numbertext">3 / 3</div>
+								<img src="./images/ENP_FinnLynn-13.jpg" style="width:100%">
+							</div>
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+							
+							<!-- Caption text -->
+							<div class="caption-container">
+								<p id="caption"></p>
+							</div>
+							
+							<!-- Thumbnail image controls -->
+							<div class="column">
+								<img class="demo" src="./images/ENP_FinnLynn-7.jpg" onclick="currentSlide(1)" alt="">
+							</div>
+							
+							<div class="column">
+								<img class="demo" src="./images/_MG_8872-2.jpg" onclick="currentSlide(2)" alt="">
+							</div>
+							
+							<div class="column">
+								<img class="demo" src="./images/ENP_FinnLynn-13.jpg" onclick="currentSlide(3)" alt="">
+							</div>
+						</div>
+					</div>
+					
 					
 						<div>
 							<h2>Meet Finn!</h2>
