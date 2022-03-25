@@ -20,6 +20,7 @@ html {
     padding-top: 350px; /* This is the spacer before the Main title Logo*/
     padding-bottom: 500px; /* This is the spacer after the Main title Logo*/
     color:#fff;
+    animation: zoomie 15s forwards;
 }
 
 h2 {
@@ -232,4 +233,16 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@keyframes zoomie {
+  0% {
+    transform: scale(1,1);
+  }
+  50% {
+    transform: scale(1.1,1.1);
+  }
+  100% {
+    transform: scale(1,1);
+  }
 }
